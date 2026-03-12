@@ -429,7 +429,17 @@ def main(argv):
                 year_rows.append(filtered[i])
             i += 1
 
-        year_rows.sort(key=lambda r: r[ROW_PROVINCE])
+        # simple alphabetical sort by province (no lambda)
+        a = 0
+        while a < len(year_rows):
+            b = a + 1
+            while b < len(year_rows):
+                if year_rows[b][ROW_PROVINCE] < year_rows[a][ROW_PROVINCE]:
+                    tmp = year_rows[a]
+                    year_rows[a] = year_rows[b]
+                    year_rows[b] = tmp
+                b += 1
+            a += 1
 
         if len(year_rows) == 0:
             print("No rows matched your filters.")
