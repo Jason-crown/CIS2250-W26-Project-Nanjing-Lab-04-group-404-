@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="520">
+<rect x="0" y="0" width="860" height="520" fill="white" />
+<text x="430.0" y="35" text-anchor="middle" font-size="22" font-family="Arial">Q3 Province Comparison - Ontario (turnout) | sector=Total, all industries | quarters_before=2</text>
+<line x1="90" y1="440" x2="820" y2="440" stroke="black" stroke-width="2" />
+<line x1="90" y1="70" x2="90" y2="440" stroke="black" stroke-width="2" />
+<text x="455.0" y="495" text-anchor="middle" font-size="16" font-family="Arial">Election Year</text>
+<text x="20" y="255.0" transform="rotate(-90 20 255.0)" text-anchor="middle" font-size="16" font-family="Arial">turnout (%)</text>
+<line x1="84" y1="440.0" x2="90" y2="440.0" stroke="black" />
+<text x="78" y="444.0" text-anchor="end" font-size="12" font-family="Arial">0.0</text>
+<line x1="84" y1="366.0" x2="90" y2="366.0" stroke="black" />
+<text x="78" y="370.0" text-anchor="end" font-size="12" font-family="Arial">15.9</text>
+<line x1="84" y1="292.0" x2="90" y2="292.0" stroke="black" />
+<text x="78" y="296.0" text-anchor="end" font-size="12" font-family="Arial">31.8</text>
+<line x1="84" y1="218.0" x2="90" y2="218.0" stroke="black" />
+<text x="78" y="222.0" text-anchor="end" font-size="12" font-family="Arial">47.7</text>
+<line x1="84" y1="144.0" x2="90" y2="144.0" stroke="black" />
+<text x="78" y="148.0" text-anchor="end" font-size="12" font-family="Arial">63.6</text>
+<line x1="84" y1="70.0" x2="90" y2="70.0" stroke="black" />
+<text x="78" y="74.0" text-anchor="end" font-size="12" font-family="Arial">79.5</text>
+<rect x="190.375" y="131.66666666666663" width="164.25" height="308.33333333333337" fill="#2c7a7b" />
+<text x="272.5" y="462" text-anchor="middle" font-size="12" font-family="Arial">2019</text>
+<text x="272.5" y="123.66666666666663" text-anchor="middle" font-size="12" font-family="Arial">66.27</text>
+<rect x="555.375" y="151.51331690506765" width="164.25" height="288.48668309493235" fill="#2c7a7b" />
+<text x="637.5" y="462" text-anchor="middle" font-size="12" font-family="Arial">2021</text>
+<text x="637.5" y="143.51331690506765" text-anchor="middle" font-size="12" font-family="Arial">62.00</text>
+</svg>
