@@ -83,7 +83,11 @@ def parse_args(argv):
             i += 1
             if i >= len(argv):
                 return None
-            year = int(argv[i])
+            try:
+                year = int(argv[i])
+            except ValueError:
+                print("Error: --year must be a number (2019 or 2021)", file=sys.stderr)
+                return None
         elif argv[i] == "--province":
             i += 1
             if i >= len(argv):
@@ -103,7 +107,11 @@ def parse_args(argv):
             i += 1
             if i >= len(argv):
                 return None
-            quarters_before = int(argv[i])
+            try:
+                quarters_before = int(argv[i])
+            except ValueError:
+                print("Error: --quarters-before must be a number (1, 2, or 4)", file=sys.stderr)
+                return None
         elif argv[i] == "--output-svg":
             i += 1
             if i >= len(argv):
